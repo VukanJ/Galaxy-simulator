@@ -10,10 +10,10 @@ runcompile: ${OBJ} EXE clean
 	./${NAME}
 
 Main.o: Main.cpp
-	${CC} -c Main.cpp ${CFLAGS}$
+	${CC} -c Main.cpp ${CFLAGS}
 
 Galaxy.o: Galaxy.cpp
-	${CC} -c Galaxy.cpp ${CFLAGS}$
+	${CC} -c Galaxy.cpp ${CFLAGS}
 
 EXE: ${OBJ}
 	${CC} -o ${NAME} ${OBJ} ${LFLAGS}
